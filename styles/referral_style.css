@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/referral_main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+}
+
+.referral-system {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0px;
+  min-height: 550px;
+  height: 100vh;
+}
+
+.referral-system span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.referral-system h1 {
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.referral__block {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.referral__block-content1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/block2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 30px 30px 40px;
+}
+
+.referral__block-content-h {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.referral__block-content-h h1 {
+  font-size: 26px;
+  padding-top: 3px;
+  font-weight: 700;
+}
+
+.referral__block-content2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/flour.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 30px 30px 40px;
+}
+
+.referral__block-content3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/man_cooking.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 30px 30px 40px;
+}
+
+.referral__block-content4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/help_img.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 30px 30px 40px;
+}

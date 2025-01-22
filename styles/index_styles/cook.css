@@ -1,0 +1,116 @@
+.container-cook {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(cook.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  /* min-height: 550px; */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.container-cook-h {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+}
+
+.container-cook-h h1 {
+  font-size: 45px;
+  line-height: 90%;
+  font-weight: 700;
+}
+
+h1.cook__title {
+  font-family: "Marck Script", serif;
+  font-size: 55px;
+}
+
+.container-cook-h4 h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.cook-buttons {
+  width: 100vw;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute; /* Абсолютное позиционирование */
+  bottom: 20px; /* Отступ от нижнего края */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cook-buttons form {
+  margin: 0px 5px;
+}
+.cook-button-red {
+  background-color: #9a061c;
+  border-radius: 20px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cook-button-red:hover {
+  background-color: #6d1d1d;
+  color: white;
+}
+
+.cook-button-white {
+  background-color: transparent;
+  border-radius: 20px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 2px solid white;
+}
